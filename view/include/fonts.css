@@ -1,0 +1,14 @@
+@font-face{
+    font-family: pixel_retro;
+    src: url(../fonts/pixel.ttf);
+}
+
+@font-face{
+    font-family: pixel_rpg;
+    src: url(../fonts/font_pixel_rpg.ttf);
+}
+
+@font-face{
+    font-family: teste;
+    src: url(../fonts/teste.ttf);
+}

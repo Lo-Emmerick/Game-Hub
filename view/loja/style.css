@@ -1,0 +1,204 @@
+.storeContent{
+  margin-top: 20px;
+  margin-left: 175px;
+  padding-right: 10px;
+  background-image: url(nav.png);
+  background-size: 500px;
+  border: 20px groove saddlebrown;
+  background-color: #48251f;
+  max-width: 100%;
+  display: flex;
+  padding: 20px;
+}
+
+.conteudo1{
+  min-width: 450px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  }
+
+.conteudo1 div{
+  border: 5px groove gold;
+  margin: 18px;
+  background-color: #88421f;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.conteudo1 div a img{
+  width: 100%;
+  margin-bottom:  -5px;
+}
+
+#itemName{
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 10px 2px 10px rgba(255, 0, 0, 0.377);
+}
+
+.preco{
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  width: 50%;
+  border: 5px groove silver;
+}
+
+.conteudo3{
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+
+.visualisar{
+  display: flex;
+  justify-content: center;
+}
+
+.visualisar img{
+  margin-top: -60px;
+  margin-bottom: 20px;
+  width: 103px;
+  height: 107px;
+}
+
+.description{
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 150px;
+  min-width: 150px;
+  width: 60%;
+  background-color: rgba(160, 81, 45, 0.445);
+  padding: 10px;
+  border: 5px groove gold;
+}
+
+#descricao{
+  color: white;
+}
+
+.description table{
+  width: 100%;
+}
+
+#comprar{
+  margin-left: 45%;
+  margin-top: 20px;
+  border-color: gold;
+}
+/* Espada*/
+
+.lamina{
+  animation: pulse infinite;
+  padding-left: 30px;
+}
+
+.ponta{
+  width: 1px;
+  border: 20px solid #cacaca;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;  
+}
+
+.corpoLamina{
+  box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.671);
+  background-color: rgb(192, 192, 192);
+  width: 1px;
+  height: 200px;
+  border: 20px solid #cacaca;
+  border-top-color: #cacaca ;
+  border-right-color:  #e8e8e8; 
+  border-left-color:  #cacaca; 
+}
+
+.pontaCabo{
+  margin-left: -7px;
+  display: flex;
+}
+
+.bolinha{
+  border: 8px groove transparent;
+  border-right-color:  gold; 
+}
+
+.bolinha2{
+  border: 8px groove transparent;
+  border-left-color:  gold;
+}
+
+.linha{
+  border: 7px groove gold;
+  width: 70px;
+  background-color: aqua;
+}
+
+.meioCabo{
+  background-color: sienna;
+  border: 3px dotted slategrey;
+  border-top: transparent;
+  border-bottom: transparent;
+  width: 1px;
+  height: 40px;
+  padding: 5px;
+  margin-left: 42px;
+}
+
+.baseCabo{
+  background-color: aqua;
+  border: 7px groove gold;
+  width: 8%;
+  padding: 5%;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: 31%;
+}
+
+.espada{
+  width: 100%;
+  animation: espada 1s normal;
+}
+
+.espada2{
+  animation: espada2 1s normal;
+  transform: rotate(180deg)
+}
+
+@media (max-width:1090px){
+  .espada2{
+    display: none;
+  }
+}
+
+@media (max-width:894px){
+  .storeContent{
+    display: block  ;
+  }
+}
+
+@keyframes espada {
+  0% {
+    transform: translatey(-500px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+@keyframes espada2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.btnLoja{
+  background-color: #88421f !important;
+  color: white !important;
+}

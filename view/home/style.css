@@ -1,0 +1,103 @@
+.main_section_home{
+    margin-top: 20px;
+    margin-left: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-family: pixel_rpg;
+}
+
+.main_section_home h2{
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.home_ranking_section{
+    width: calc(35% + -30px);
+    background-color: #48251f;
+    padding: 20px;
+}
+
+.home_sobre_section{
+    position: relative;
+    width: 60%;
+    background-color: hsl(9, 40%, 20%);
+    padding: 10px
+}
+
+.estrela1{
+    filter: grayscale(1);
+}
+
+.estrela2{
+    filter: saturate(10000%) brightness(100%) contrast(60%);
+}
+
+.estrela3{
+    filter: brightness(10%) contrast(100%);
+}
+
+.home_sobre_section p {
+    font-size: 20px;
+    color: black;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -14px;
+}
+
+.home_raking_layout{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #919191;
+    margin-top: 40px;
+    position: relative;
+}
+
+.home_raking_layout p{
+    font-size: 35px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+} 
+
+.home_img_ranking_user{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: 5px solid #919191;
+    position: absolute;
+    left: -25;
+    top: -10px;
+}
+
+.home_img_ranking_user img{
+    width: 45px;
+    height: 45px;
+}
+
+.home_img_ranking_estrela{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.btnHome{
+    background-color: #88421f !important;
+    color: white !important;
+}
+
+@media (max-width:870px){
+   .home_ranking_section{
+       flex-basis: 100%;
+       padding: 40px;
+   }
+
+   .home_sobre_section{
+       margin-top: 20px;
+       flex-basis: 100%;
+   }
+}

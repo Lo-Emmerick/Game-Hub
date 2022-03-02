@@ -1,0 +1,102 @@
+body{
+    background-color: #88421f;
+    display: flex;
+}
+
+/*---Parte esquerda---*/
+
+/*---container esquerdo---*/
+.escudo{
+    width: 50%;
+    position: relative;
+    margin-left: 130px;
+}
+
+/*---Formulário---*/
+.form{
+    font-family: pixel_rpg;
+    font-size: 2em;
+    top: 150px;
+    left: 97.5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*---Frase do form---*/
+.form h1{
+    color: rgb(0, 0, 0);
+    margin-left: 43px;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;   
+}
+
+/*---Caixa do email---*/
+#email{
+    font-family: pixel_rpg;
+    font-size: 20px;
+    flex-basis: 63%;
+    width: 0px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/*---Imagem do escudo---*/
+.escudo img{
+    width: 553px;
+    margin-top: 20px;
+    filter: opacity(70%);
+}
+
+/*---Imagem da espada no botao---*/
+#espada_img{
+    width: 30px;
+    margin-bottom: 24px;
+}
+
+/*---botao---*/
+#submit{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-left: 125px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 10px 5px 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/*---Parte direita---*/
+
+/*---container da direita---*/
+.mulher{
+    display: flex;
+}
+
+/*---imagem da mulher---*/
+.mulher_img{
+    height: 250px;
+    width: 250px;
+    margin-top: 300px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+/*---Imagem do balão---*/
+.balao_img{
+  width: 300px;
+  height: 200px;
+  margin-right: 0px;
+  margin-top: 120px;
+}
+
+/*---Frase do balao---*/
+.mulher h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+}
