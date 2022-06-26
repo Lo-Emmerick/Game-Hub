@@ -16,7 +16,7 @@ if(empty($_SESSION)){
         }
         
         switch ($_SESSION["tela"]) {
-    
+            
             case 'Home':
                 include 'view/home/home.php';
                 break;
@@ -35,7 +35,11 @@ if(empty($_SESSION)){
 
             case 'Pug_Jump':
                 include 'view/jogos/pug_jump_eco_edition/index.php';
-                break;    
+                break;
+                
+            case 'Jogo_da_Velha':
+                include 'view/jogos/jogo-da-velha/index.html';
+                break;
                         
             case 'Sair':
                 session_destroy();

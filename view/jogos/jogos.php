@@ -10,10 +10,10 @@
         </a>
     </article>
 
-    <article class="titulo_jogos off">
-    <a href="#">
-        <img src="view/img/mapa.webp" alt="mapa" class="img_mapa">
-        <h3>Busca do Tesouro</h3>
+    <article class="titulo_jogos">
+    <a href="#" onclick="trataBotao(this)">
+        <img src="view/img/jogo_da_velha.png" alt="jogo da velha img" class="img_hashtag">
+        <h3>Jogo da Velha</h3>
         </a>
     </article>
 
