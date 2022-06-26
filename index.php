@@ -38,7 +38,7 @@ if(empty($_SESSION)){
                 break;
                 
             case 'Jogo_da_Velha':
-                include 'view/jogos/jogo-da-velha/index.html';
+                include 'view/jogos/jogo_da_velha/index.html';
                 break;
                         
             case 'Sair':
