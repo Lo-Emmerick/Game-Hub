@@ -40,6 +40,13 @@
     width: 120px;
 }
 
+.img_hashtag{
+    position: absolute;
+    left: -60px;
+    top: -40;
+    width: 120px;
+}
+
 .img_cavaleiro{
     position: absolute;
     left: -30px;
