@@ -1,7 +1,4 @@
 <?php
-
-require "model/meus_dados/meus_dadosModel.php";
-
 class meus_dadosController extends meus_dadosModel {
 
     function alimentaMeusDados(){

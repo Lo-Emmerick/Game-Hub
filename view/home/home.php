@@ -1,8 +1,8 @@
 <?php
-require 'controller/home/homeController.php'; 
 
 $homeController = new homeController;
 $rank = $homeController -> listaRank();
+
 for ($i=0; $i < count($rank); $i++) { 
     $rank[$i][0] = $defineImg->selecionaImagem($rank[$i][0]);
 }
@@ -14,7 +14,7 @@ for ($i=0; $i < count($rank); $i++) {
         <h2>Ranking</h2>
         <?php
             for ($i=0; $i < 4; $i++) { 
-                echo '<article class="home_raking_layout"><div class="home_img_ranking_user"><img src="'.$rank[$i][0].'" ></div><img src="view/img/estrela.webp" class="home_img_ranking_estrela estrela'.$i.'"><p>'.$rank[$i][1].'</p></article>';
+                echo '<article class="home_raking_layout"><div class="home_img_ranking_user"><img src="'.(!empty($rank[$i][0]) ? $rank[$i][0] : "").'" ></div><img src="view/img/estrela.webp" class="home_img_ranking_estrela estrela'.$i.'"><p>'.(!empty($rank[$i][1]) ? $rank[$i][1] : "").'</p></article>';
             }
         ?>
     </section>

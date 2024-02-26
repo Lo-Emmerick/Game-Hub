@@ -1,8 +1,10 @@
 <?php 
+error_reporting(E_ERROR | E_PARSE);
+require_once __DIR__.'/autoload.php';
+
 if(!isset($_SESSION)){session_start();}
 
 if(empty($_SESSION)){
-
     include 'view/login/login.php';
 }else{
     if (!isset($_SESSION["tela"])) {

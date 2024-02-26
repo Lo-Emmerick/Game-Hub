@@ -2,8 +2,6 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-require 'controller/menu/menuController.php';
-require 'view/img/defineImg.php';
 
 $defineImg = new defineImg;
 $menuController = new menuController;

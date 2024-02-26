@@ -1,5 +1,5 @@
 <?php
-require_once '../../model/jogos/jogosModel.php';
+// require_once '../../model/jogos/jogosModel.php';
 
 class jogosController extends jogosModel
 {

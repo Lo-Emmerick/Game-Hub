@@ -9,25 +9,4 @@
         <h3>Pug Jump</h3>
         </a>
     </article>
-
-    <article class="titulo_jogos">
-    <a href="#" onclick="trataBotao(this)">
-        <img src="view/img/jogo_da_velha.png" alt="jogo da velha img" class="img_hashtag">
-        <h3>Jogo da Velha</h3>
-        </a>
-    </article>
-
-    <article class="titulo_jogos off">
-    <a href="#">
-        <img src="view/img/cavaleiro.webp" alt="cavaleiro" class="img_cavaleiro">
-        <h3>Pixel Kingdom</h3>
-        </a>
-    </article>
-
-    <article class="titulo_jogos off">
-    <a href="#">
-        <img src="view/img/navinha.webp" alt="navinha" class="img_nave">
-        <h3>Jogo de Navinha</h3>
-        </a>
-    </article>
 </section>

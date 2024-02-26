@@ -1,6 +1,5 @@
 <?php
-require "controller/meus_dados/meus_dadosControler.php";
-require_once 'view/img/defineImg.php';
+// require "controller/meus_dados/meus_dadosControler.php";
 
 $defineImg = new defineImg;
 $meus_dadosController = new meus_dadosController;
@@ -12,7 +11,7 @@ $img_usuario = $defineImg->selecionaImagem($data['img_usuario']);
 <section class="dados_main_content">
     <article class="dados_header">
         <img src="<?php echo $img_usuario ?>" class="img_usuario" alt="img_usuario">
-        <p><?php echo $data['nome'] ?></p>
+        <p><?php echo $data['name'] ?></p>
         <article class="dados_colocacao">
             <img src="view/img/img_trofeu.webp" class="img_colocacao" alt="img_colocacao">
             <p><?php echo $meus_dadosController->posicaoRank() ?>º th</p>
@@ -22,7 +21,7 @@ $img_usuario = $defineImg->selecionaImagem($data['img_usuario']);
         <article class="dados_content_article">
             <img src="view/img/img_nick.webp" alt="img_nick">
             <p>Nick</p>
-            <?php echo '<input type="text" value="'.$data['nome'].' ">' ?>
+            <?php echo '<input type="text" value="'.$data['name'].' ">' ?>
         </article>
         <article class="dados_content_article">
             <img src="view/img/medalha.webp" alt="img_voucher">

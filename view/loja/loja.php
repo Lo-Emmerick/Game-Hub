@@ -1,6 +1,4 @@
 <?php
-require 'controller/loja/lojaController.php';
-require_once 'view/img/defineImg.php';
 
 $defineImg = new defineImg;
 $lojaController = new lojaController;

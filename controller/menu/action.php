@@ -4,8 +4,7 @@ require __DIR__."../../../model/menu/menuModel.php";
 if(!isset($_SESSION)){session_start();}
 
 $valor = array_keys($_POST);
-
-$menuModel = new menuModel();
+$menuModel = new model\menuModel();
 
 if(isset($valor[0])){
 
@@ -21,6 +20,4 @@ if(isset($valor[0])){
             echo $valor[0];
             break;
     }
-}else{
-
 }

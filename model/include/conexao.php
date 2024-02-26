@@ -4,7 +4,8 @@
  * 
  * @return /PDO
  */
-class conexao{
+namespace conexao;
+class conexaoBanco{
     
     function getConection(){
         $host= 'localhost';
@@ -13,7 +14,7 @@ class conexao{
         $dbname='game_hub';
 
         try{
-            $pdo = new mysqli($host,$user,$pass, $dbname);
+            $pdo = new \mysqli($host,$user,$pass, $dbname);
         }catch(Exception $e){
             echo 'Erro: '+ $e ->getMessage();
         }
